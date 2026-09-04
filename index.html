@@ -1,166 +1,92 @@
 <!DOCTYPE html>
+
 <html lang="ja">
 
 <head>
     <meta charset="UTF-8">
-    <title>息子の電子工作記録</title>
+    <title>電子工作の記録</title>
 </head>
 
 <body>
 
-<h1>🔧 息子の電子工作記録</h1>
+<h1>🔧 電子工作の記録</h1>
 
 <p>
-これから少しずつ作品を増やしていきます。
-</p><br>
+小学6年生が電子工作を始めてから、いろいろなものを作ってきた記録です。
+</p>
 
 <p>
-<a href="https://github.com/saita12r/electronics">GitHubのelectronicsリポジトリ</a>
-</p><br><br>
-    
-<h2>Raspberry Pi 400②</h2>
-    (2026年9月1日）<br><br>
-    
+LEDやPICマイコン、Raspberry Pi Pico 2、Raspberry Pi 400などを使って、
+失敗しながら少しずつ挑戦しています。
+</p>
 
-待っていたGPIO 40ピンブレークアウトブレッドボードセットが到着。<br>
+<hr>
 
-配線を整えて、もう一度挑戦した。<br>
+<h2>📖 これまでの記録</h2>
 
-AIに相談しながら配線やプログラムを確認し、試行錯誤。<br>
+<p>
+電子工作を始めたきっかけから、現在までの記録をまとめています。
+</p>
 
-そして、挑戦を始めてから約1時間ほどで、M154-240240-RGBへの表示に成功！<br>
+<p>
+<a href="history.html">▶ これまでの電子工作の記録を見る</a>
+</p>
 
-以前Raspberry Pi Pico 2でうまく表示できなかった液晶が、Raspberry Pi 400のGPIOから表示された。<br>
+<hr>
 
-AIにも相談しながら試行錯誤し、約1時間で表示することができた。<br>
+<h2>🛠 主な工作</h2>
 
-
-<img src="images/rp400_lcd3.jpg" alt="rp400lcd3" width="600"><br><br>
-<img src="images/rp400_lcd4.jpg" alt="rp400lcd4" width="600"><br><br>
-
-
-    
-<h2>Raspberry Pi 400①</h2>
-    
-    <ul>
-    <li>Raspberry Pi OSをインストール</li>
-    (2026年8月22日）<br>
-    手持ちのマイクロSDカードにインストールして起動させてみたが動作が遅いので検討した。<br>
-    SDカードが高騰しているので手持ちの2.5インチHDDを使うことにした。<br>
-    最初に使ったマイクロSDよりは使える速度みたい。<br><br>
-    
-
-    <li>日本語入力を設定</li>
-    (2026年8月22日）<br>
-    画面表示は日本語なのに日本語入力が出来ない事が分かりIME設定することになった。<br><br>
-
-    sudo apt install fcitx5-mozc<br><br>
-    im-config -n fcitx5<br><br>
-    sudo reboot<br><br>
-    これで日本語入力が出来るようになった。<br><br><br>
-
+<ul>
+    <li>💡 LED・Lチカ</li>
+    <li>🎹 電子ピアノキット</li>
+    <li>🔌 PICマイコン</li>
+    <li>🖥 Raspberry Pi Pico 2</li>
+    <li>📡 電鍵・モールス</li>
+    <li>🔊 小型スピーカー・アンプ</li>
+    <li>⚡ USB 5V → 9V 昇圧回路</li>
+    <li>⌨️ Raspberry Pi 400</li>
+    <li>🖥 小型液晶表示</li>
 </ul>
 
-<h2>以前うまくいかなかった液晶に再挑戦(Raspberry Pi 400)</h2><br>
-    （2026年8月29日）<br><br>
+<hr>
 
-Raspberry Pi Pico 2でうまく表示できなかった **M154-240240-RGB** に、今度はRaspberry Pi 400を使って再挑戦。<br>
+<h2>⭐ 最近の挑戦</h2>
 
-GPIOからジャンプワイヤを使って配線した。<br>
-
-しかし、必要なジャンプワイヤは8本。<br>
-
-手元には5本しかなかったため、完全な表示はできなかったものの、画面の半分だけ表示するところまで成功した。<br>
-
-以前はうまく表示できなかったため、<br>
-
-「もしかしたら今回は表示できるかもしれない」<br>
-
-と期待できる結果だった。<br>
-
-<img src="images/rp400_lcd1.jpg" alt="rp400lcd1" width="600"><br><br>
-<img src="images/rp400_lcd2.jpg" alt="rp400lcd2" width="600"><br><br>
-    
-
-
-<h2>学校の自由研究② 小型スピーカー用アンプ<h2></h2><br>
-（2026年8月）<br><br>
-
-
-以前作った小型スピーカーを鳴らすため、秋月電子のアンプキット **AE-7368** を製作。<br>
-
-しかし、このアンプには9Vの電源が必要だった。<br>
-
-そこで、USBの5Vから9Vを作ることにした。<br>
-
-秋月電子の昇圧キット **AE-LMR62421** を使用し、USBの5Vから9Vへの昇圧に成功。<br>
-
-<img src="images/amp.jpg" alt="アンプ" width="600">
-
-
-
-
-    
-<h2>Raspberry Pi Pico 2</h2>（2026年6月）
+<h3>Raspberry Pi 400で小型液晶を表示</h3>
 
 <p>
-その後、Raspberry Pi Pico 2を使った電子工作にも挑戦。<br>
-
-PICとは違うマイコンを使うことで、できることの幅がさらに広がった。<br>
-
-
-
-<img src="images/pico2.jpg" alt="pico2" width="600"><br>
-
-<p>Pico 2をブレッドボードに刺してみたところ。</p><br>
-
-### 小型液晶に挑戦<br><br>
-
-Raspberry Pi Pico 2を使って、小型液晶 **M154-240240-RGB** の表示に挑戦。<br>
-
-しかし、うまく表示することができず、一度ここで挫折。<br>
-
-この液晶は、後にRaspberry Pi 400を使ってもう一度挑戦することになる。<br>
+以前、Raspberry Pi Pico 2ではうまく表示できなかった
+小型液晶 <strong>M154-240240-RGB</strong> に再挑戦。
 </p>
-
-<img src="images/pico2_lcd1.jpg" alt="pico2lcd1" width="600">
-
-<p>Pico 2にジャンプワイヤーで配線してみた。</p><br>
-
-
-<img src="images/pico2_lcd2.jpeg" alt="pico2" width="600">
-
-<p>出来たのはバックライトの点灯まで。</p><br><br>
-
-
-<h2>PICマイコンでLチカ</h2>(2026年5月)
-
-<p>電子ピアノキットに使われていたPICマイコンについても調べてみた。<br>
-
-プログラムを読み出してみようとしたが、プロテクトがかかっているようで読み出すことができなかった。<br>
-
-そこで、秋月電子でPICマイコンを購入し、自分でプログラムを書き込んで使ってみることにした。<br>
-
-まずはLEDを点滅させる、いわゆる「Lチカ」に挑戦。<br>
-
-AIにも相談しながらプログラムを書き、マイコンからLEDを制御することができた。</p>
-
-<img src="images/picl.jpg" alt="PICでLチカ" width="600"><br>
-あれ？抵抗ないんだけど・・・。
-<br><br>
-
-
-</p>
-<h2>電子ピアノキット</h2>（2026年5月）
 
 <p>
-電子工作を始めた頃、門田無線の閉店セールでサンハヤトの電子ピアノキットを見つけ、購入して製作しました。
+GPIOを使って配線し、表示に成功しました！
 </p>
 
-<img src="images/piano.jpg" alt="電子ピアノキット制作途中" width="600">
+<p>
+<a href="history.html">▶ 詳しい記録を見る</a>
+</p>
 
-<p>このpicマイコンの足にジャンプワイヤーを取り付け、段ボールに貼ったアルミテープの下に反対側のジャンプワイヤーを挟みます。</p>
-<p>アルミテープが鍵盤になります。完成写真は撮り損なってました。</p>
+<hr>
+
+<h2>🔗 Links</h2>
+
+<ul>
+    <li>
+        <a href="history.html">電子工作の記録</a>
+    </li>
+    <li>
+        <a href="https://github.com/saita12r/electronics">
+            GitHub - electronics
+        </a>
+    </li>
+</ul>
+
+<hr>
+
+<p>
+これからも、成功したものだけでなく、失敗したものも含めて記録していきます。
+</p>
 
 </body>
 </html>
