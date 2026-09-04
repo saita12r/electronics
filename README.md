@@ -1,6 +1,5 @@
-## Webページ
+[Webページ電子工作の記録を見る](https://saita12r.github.io/electronics/)
 
-[電子工作の記録を見る](https://saita12r.github.io/electronics/)
 # 電子工作を始めてからRaspberry Pi 400で液晶を表示するまで
 
 小学6年生が電子工作を始めてから、LED、PICマイコン、Raspberry Pi Pico 2、アンプ、昇圧回路などを使って、少しずついろいろなものを作ってきた記録。
