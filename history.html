@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>息子の電子工作記録</title>
+</head>
+
+<body>
+
+<h1>🔧 息子の電子工作記録</h1>
+
+<p>
+これから少しずつ作品を増やしていきます。
+</p><br>
+
+<p>
+<a href="https://github.com/saita12r/electronics">GitHubのelectronicsリポジトリ</a>
+</p><br><br>
+    
+<h2>Raspberry Pi 400②</h2>
+    (2026年9月1日）<br><br>
+    
+
+待っていたGPIO 40ピンブレークアウトブレッドボードセットが到着。<br>
+
+配線を整えて、もう一度挑戦した。<br>
+
+AIに相談しながら配線やプログラムを確認し、試行錯誤。<br>
+
+そして、挑戦を始めてから約1時間ほどで、M154-240240-RGBへの表示に成功！<br>
+
+以前Raspberry Pi Pico 2でうまく表示できなかった液晶が、Raspberry Pi 400のGPIOから表示された。<br>
+
+AIにも相談しながら試行錯誤し、約1時間で表示することができた。<br>
+
+
+<img src="images/rp400_lcd3.jpg" alt="rp400lcd3" width="600"><br><br>
+<img src="images/rp400_lcd4.jpg" alt="rp400lcd4" width="600"><br><br>
+
+
+    
+<h2>Raspberry Pi 400①</h2>
+    
+    <ul>
+    <li>Raspberry Pi OSをインストール</li>
+    (2026年8月22日）<br>
+    手持ちのマイクロSDカードにインストールして起動させてみたが動作が遅いので検討した。<br>
+    SDカードが高騰しているので手持ちの2.5インチHDDを使うことにした。<br>
+    最初に使ったマイクロSDよりは使える速度みたい。<br><br>
+    
+
+    <li>日本語入力を設定</li>
+    (2026年8月22日）<br>
+    画面表示は日本語なのに日本語入力が出来ない事が分かりIME設定することになった。<br><br>
+
+    sudo apt install fcitx5-mozc<br><br>
+    im-config -n fcitx5<br><br>
+    sudo reboot<br><br>
+    これで日本語入力が出来るようになった。<br><br><br>
+
+</ul>
+
+<h2>以前うまくいかなかった液晶に再挑戦(Raspberry Pi 400)</h2><br>
+    （2026年8月29日）<br><br>
+
+Raspberry Pi Pico 2でうまく表示できなかった **M154-240240-RGB** に、今度はRaspberry Pi 400を使って再挑戦。<br>
+
+GPIOからジャンプワイヤを使って配線した。<br>
+
+しかし、必要なジャンプワイヤは8本。<br>
+
+手元には5本しかなかったため、完全な表示はできなかったものの、画面の半分だけ表示するところまで成功した。<br>
+
+以前はうまく表示できなかったため、<br>
+
+「もしかしたら今回は表示できるかもしれない」<br>
+
+と期待できる結果だった。<br>
+
+<img src="images/rp400_lcd1.jpg" alt="rp400lcd1" width="600"><br><br>
+<img src="images/rp400_lcd2.jpg" alt="rp400lcd2" width="600"><br><br>
+    
+
+
+<h2>学校の自由研究② 小型スピーカー用アンプ<h2></h2><br>
+（2026年8月）<br><br>
+
+
+以前作った小型スピーカーを鳴らすため、秋月電子のアンプキット **AE-7368** を製作。<br>
+
+しかし、このアンプには9Vの電源が必要だった。<br>
+
+そこで、USBの5Vから9Vを作ることにした。<br>
+
+秋月電子の昇圧キット **AE-LMR62421** を使用し、USBの5Vから9Vへの昇圧に成功。<br>
+
+<img src="images/amp.jpg" alt="アンプ" width="600">
+
+
+
+
+    
+<h2>Raspberry Pi Pico 2</h2>（2026年6月）
+
+<p>
+その後、Raspberry Pi Pico 2を使った電子工作にも挑戦。<br>
+
+PICとは違うマイコンを使うことで、できることの幅がさらに広がった。<br>
+
